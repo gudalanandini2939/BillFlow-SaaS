@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const API_URL = import.meta.env.VITE_API_URL ||"https://billflow-saas-oxxp.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL || "https://billflow-saas-owxp.onrender.com"
 
 function Login() {
   const [email, setEmail] = useState("");
